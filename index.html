@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TremendousMusicPal — Crédits</title>
+<meta name="description" content="TremendousMusicPal : une app pour découvrir les gammes, les modes et les accords des morceaux, à la basse, à la guitare, au ukulélé et au piano.">
+<style>
+  :root { --bg: #f1f2f6; --card: #fff; --fg: #171a24; --muted: #5d6377; --accent: #c4670f; --line: #d8dbe5; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #12141b; --card: #1a1d27; --fg: #e9eaf1; --muted: #9ba0b5; --accent: #f0a04b; --line: #2f3446; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 20px; }
+  h1 { font-size: 2.2rem; margin: 0 0 8px; letter-spacing: -0.02em; }
+  h2 { font-size: 1.2rem; margin: 36px 0 12px; }
+  p { margin: 0 0 12px; }
+  .lead { color: var(--muted); font-size: 1.1rem; }
+  ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+  li { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; }
+  li strong { display: block; margin-bottom: 2px; }
+  a { color: var(--accent); }
+  footer { margin-top: 40px; color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>TremendousMusicPal</h1>
+  <p class="lead">Une app pour s'inspirer : choisis une gamme ou un mode, cherche un morceau, écoute-le et vois sa tonalité et ses accords sur le manche ou le clavier. Pour la basse, la guitare, le ukulélé et le piano, sur iPhone, iPad et Mac.</p>
+
+  <h2>Crédits et sources de données</h2>
+  <ul>
+    <li>
+      <strong>GetSongBPM</strong>
+      Tonalité et tempo des morceaux fournis par <a href="https://getsongbpm.com">GetSongBPM.com</a>.
+    </li>
+    <li>
+      <strong>Hooktheory</strong>
+      Progressions d'accords et morceaux analysés issus de <a href="https://www.hooktheory.com/theorytab">Hooktheory TheoryTab</a>.
+    </li>
+    <li>
+      <strong>Apple</strong>
+      Recherche de morceaux, pochettes et extraits de 30 secondes via l'API de recherche iTunes d'Apple.
+    </li>
+  </ul>
+
+  <footer>
+    <p>Les tonalités non confirmées par une source sont estimées par l'app à partir de l'extrait audio.</p>
+  </footer>
+</main>
+</body>
+</html>
